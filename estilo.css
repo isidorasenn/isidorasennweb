@@ -1,0 +1,141 @@
+body{
+  font-family: 'Germania One', cursive;
+
+}
+
+h1{
+
+  text-align: center;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*barra*/
+.navegacion{
+
+	width: 1000px;
+	margin: 30px auto;
+	background: pink;
+
+
+}
+
+.navegacion ul{
+  list-style: none;
+}
+
+.menu >li {
+  position: relative;
+  display: inline-block;
+}
+
+.menu >li >a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/*submenu*/
+.submenu{
+	position: absolute;
+	background: pink;
+  visibility: hidden;
+
+
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: white;
+	text-decoration: none;
+
+
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+z-index: 2;
+}
+
+
+
+
+
+/* index */
+
+/* Contenedor de todas las cajas */
+.destacados-wrapper{
+  width: 100%;
+  height: auto;
+  background: green;
+}
+
+/* cajas */
+.destacados-home{
+ width: 33.333%;
+ height: 300px;
+ float: left;
+ background: red;
+ position: relative;
+}
+
+/* texto */
+.destacados-home > span {
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 45px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* img */
+.destacados-home img {
+  width: 100%;
+  height: auto;
+}
+
+/* productos */
+}
+.accesorios {
+  display: inline-block;
+font-family: 'Roboto Slab', serif;
+
+}
+
+/* Contenedor de todas las cajas */
+.productos-wrapper{
+  width: 100%;
+  height: auto;
+  background: blue;
+}
+
+
+/* cajas */
+.productos-caja{
+ width: 33.333%;
+ height: 300px;
+ float: left;
+ background: ;
+ position: relative;
+}
+
+
+.formulario {
+  font-family: 'Roboto Slab', serif;
+
+}
+
+/* efectos */
